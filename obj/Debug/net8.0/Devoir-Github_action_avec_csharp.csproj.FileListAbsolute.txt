@@ -1,0 +1,14 @@
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.AssemblyInfoInputs.cache
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.AssemblyInfo.cs
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.csproj.CoreCompileInputs.cache
+/home/julien/Devoir-Github_action_avec_csharp/bin/Debug/net8.0/Devoir-Github_action_avec_csharp
+/home/julien/Devoir-Github_action_avec_csharp/bin/Debug/net8.0/Devoir-Github_action_avec_csharp.deps.json
+/home/julien/Devoir-Github_action_avec_csharp/bin/Debug/net8.0/Devoir-Github_action_avec_csharp.runtimeconfig.json
+/home/julien/Devoir-Github_action_avec_csharp/bin/Debug/net8.0/Devoir-Github_action_avec_csharp.dll
+/home/julien/Devoir-Github_action_avec_csharp/bin/Debug/net8.0/Devoir-Github_action_avec_csharp.pdb
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.dll
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/refint/Devoir-Github_action_avec_csharp.dll
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.pdb
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.genruntimeconfig.cache
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/ref/Devoir-Github_action_avec_csharp.dll
