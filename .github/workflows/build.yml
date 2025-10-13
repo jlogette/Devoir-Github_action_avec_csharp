@@ -7,7 +7,7 @@ steps:
 - uses: actions/checkout@v4
 - name: Installer .NET
 uses: actions/setup-dotnet@v4
-with: dotnet-version: '8.0'
+with: dotnet-version: ['8.0']
 - name: Lister les fichiers du dépôt
 run: ls -lsa
 - name: Compiler le programme C#
