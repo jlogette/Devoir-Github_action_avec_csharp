@@ -12,3 +12,4 @@
 /home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.pdb
 /home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.genruntimeconfig.cache
 /home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/ref/Devoir-Github_action_avec_csharp.dll
+/home/julien/Devoir-Github_action_avec_csharp/obj/Debug/net8.0/Devoir-Github_action_avec_csharp.sourcelink.json

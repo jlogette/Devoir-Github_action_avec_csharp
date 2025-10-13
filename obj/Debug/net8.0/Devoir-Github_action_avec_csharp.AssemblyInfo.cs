@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Devoir-Github_action_avec_csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f92fe23858369b98c665bb3db363c37e8f115c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Devoir-Github_action_avec_csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Devoir-Github_action_avec_csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
