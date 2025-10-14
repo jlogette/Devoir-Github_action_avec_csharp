@@ -1,16 +1,17 @@
 name: GitHub Actions - C# Demo
 on: [push]
 jobs:
-run-csharp-code:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
-- name: Installer .NET
-uses: actions/setup-dotnet@v4
-with: dotnet-version: ['8.0']
-- name: Lister les fichiers du dépôt
-run: ls -lsa
-- name: Compiler le programme C#
-run: dotnet build MonProjet/MonProjet.csproj
-- name: Lancer le programme compilé
-run: dotnet run --project MonProjet/MonProjet.csproj
+  run-csharp-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installer .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Lister les fichiers du dépôt
+        run: ls -lsa
+      - name: Compiler le programme C#
+        run: dotnet build MonProjet/MonProjet.csproj
+      - name: Lancer le programme compilé
+        run: dotnet run --project MonProjet/MonProjet.csproj
