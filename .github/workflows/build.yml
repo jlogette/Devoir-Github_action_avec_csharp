@@ -12,6 +12,6 @@ jobs:
       - name: Lister les fichiers du dépôt
         run: ls -lsa
       - name: Compiler le programme C#
-        run: dotnet build MonProjet/MonProjet.csproj
+        run: dotnet build Devoir-Github_action_avec_csharp/Devoir-Github_action_avec_csharp.csproj
       - name: Lancer le programme compilé
-        run: dotnet run --project MonProjet/MonProjet.csproj
+        run: dotnet run --project Devoir-Github_action_avec_csharp/Devoir-Github_action_avec_csharp.csproj
