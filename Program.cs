@@ -1,10 +1,10 @@
 ﻿using System;
-var apiKey = Environment.GetEnvironmentVariable("API_KEY");
-if (string.IsNullOrEmpty(apiKey))
+var accessToken = Environment.GetEnvironmentVariable("ACCESS_TOKEN");
+if (accessToken.StartsWith("mo"))
 {
-    Console.WriteLine("Clé API non trouvée !");
+    Console.WriteLine("Accès autorisé !");
 }
 else
 {
-    Console.WriteLine("Clé API récupérée avec succès !");
+    Console.WriteLine("Accès refusé");
 }
