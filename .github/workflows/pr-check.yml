@@ -1,6 +1,5 @@
 name: Vérification pull request
-on:
-  pull_request:
+on: [pull_request]
 jobs:
   verify:
     runs-on: ubuntu-latest
