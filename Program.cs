@@ -1,2 +1,2 @@
 ﻿using System;
-Console.Writeline("Hello, Wolrd!");
+Console.WriteLine("Hello, Wolrd!");
