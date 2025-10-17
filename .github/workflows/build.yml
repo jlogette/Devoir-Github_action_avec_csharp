@@ -1,13 +1,13 @@
 name: GitHub Actions - C# Demo
 on: [push]
+env:
+  API_KEY: ${{ secrets.API_KEY }}
 jobs:
   run-csharp-code:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Use secret in build
-        env:
-          API_KEY: ${{ secrets.API_KEY }}
         run: echo "La clé est $API_KEY"
       - name: Installer .NET
         uses: actions/setup-dotnet@v4
