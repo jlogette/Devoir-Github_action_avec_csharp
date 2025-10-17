@@ -1,14 +1,14 @@
 name: GitHub Actions - C# Demo
 on: [push]
-env:
-  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+# env:
+#   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 jobs:
   run-csharp-code:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Use secret in build
-        run: echo "La token est $ACCESS_TOKEN"
+      # - name: Use secret in build
+      #   run: echo "La token est $ACCESS_TOKEN"
       - name: Installer .NET
         uses: actions/setup-dotnet@v4
         with:
