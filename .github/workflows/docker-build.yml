@@ -1,0 +1,14 @@
+name: Build Docker image
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t monapi:${{ github.ref_name }} .
+      - name: (Fictif) Docker push
+        run: echo "Image envoyée vers Docker Hub (simulé)"
